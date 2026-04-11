@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "靈馨規範 App",
+    "slug": "linghsin-rules",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0ea5e9"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.linghsin.rules"
+    },
+    "android": {
+      "package": "com.linghsin.rules",
+      "adaptiveIcon": {
+        "backgroundColor": "#0ea5e9"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": []
+  }
+}
